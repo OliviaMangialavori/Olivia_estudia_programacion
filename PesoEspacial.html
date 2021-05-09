@@ -1,0 +1,40 @@
+<html>
+    <head>
+
+    <title> Cambia tu peso espacial </title>
+
+    </head>  
+
+        <style>
+            body
+            {
+                background-color: #f2d3b1;
+                font-family:Arial, Helvetica, sans-serif;
+                color: #3d3832
+            }
+
+            strong
+            {
+                background-color: #b8e0dc;
+            }
+        </style>
+    <body>
+        <h1> <strong>                                                Tu peso en otro planeta</strong></h1>
+        <p>Sabias que en otros planetas, como por ejemplo en marte o en jupiter, tu peso cambia!</p>
+        <p>Probemoslo!</p>
+        <p> Suponiendo queyo peso 77k en marte pesaria:</p>
+
+    <script>
+        var g_tierrra = 9.8;
+        var g_marte = 3.7;
+        var peso = 77;
+        var peso_final;
+        peso_final = peso * g_marte / g_tierrra;
+        peso_final = parseInt(peso_final);
+        document.write(peso_final)
+    </script>
+        <p>Que cool! bueno, nos vemos la proxima cuando sepa programar mas cosas¡Adios!</p>
+    
+
+    </body> 
+</html>
