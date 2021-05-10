@@ -19,15 +19,16 @@
             }
         </style>
     <body>
-        <h1> <strong>                                                Tu peso en otro planeta</strong></h1>
+        <h1> <strong>Tu peso en otro planeta</strong></h1>
         <p>Sabias que en otros planetas, como por ejemplo en marte o en jupiter, tu peso cambia!</p>
         <p>Probemoslo!</p>
-        <p> Suponiendo queyo peso 77k en marte pesaria:</p>
+        <p> En marte pesarias:</p>
 
     <script>
+        var usuario = parseInt(prompt("Cual es tu peso"));
         var g_tierrra = 9.8;
         var g_marte = 3.7;
-        var peso = 77;
+        var peso = usuario;
         var peso_final;
         peso_final = peso * g_marte / g_tierrra;
         peso_final = parseInt(peso_final);
