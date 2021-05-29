@@ -5,6 +5,7 @@ boton.addEventListener('click', dibujo_por_click)
 boton2.addEventListener('click', dibujo_por_click)
 var d = document.getElementById("dibujito")
 var lienzo = d.getContext("2d");
+//estoy probando Git
 
 
 function dibujarLinea( color, xinicial, yinicial, xfinal, yfinal)
