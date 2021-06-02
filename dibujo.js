@@ -16,7 +16,7 @@ function dibujarLinea( color, xinicial, yinicial, xfinal, yfinal)
     lienzo.stroke();
     lienzo.closePath();
 }
-//fdsdfs
+//fdsdfscdczc
 
 
 
