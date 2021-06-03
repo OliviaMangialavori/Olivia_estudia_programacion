@@ -5,7 +5,7 @@ var lienzo = d.getContext("2d");
 boton.addEventListener("click", dibujo_por_click);
 var ancho = d.width;
 
-
+//jhkjhka
 
 function dibujarLinea( color, xinicial, yinicial, xfinal, yfinal)
 {
